@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Projet</title>
+    
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
+    <script type="importmap">
+    {
+      "imports": {
+        "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js",
+        "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.esm.min.js"
+      }
+    }
+    </script>
+    <script type="module">
+      import * as bootstrap from 'bootstrap'
+
+      new bootstrap.Popover(document.getElementById('popoverButton'))
+    </script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JAVASCRIPT pour les requêtes -->
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      
+      <div class="container-fluid">
+        <a class="navbar-brand fw-normal fs-3" href="#">Analyse conversationnelle</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="align-items:baseline;">
+            
+            <li class="nav-item">
+              <div class="input-group">
+                <input type="file" id="files" onchange="upload_directory()" webkitdirectory mozdirectory>
+              </div>
+            </li>
+            <li class="nav-item">
+
+              <div id="good"></div>
+            </li>
+          </ul>
+          
+          <select class="form-select w-25 me-3" aria-label="Conversation" id="select_conversation" onchange="affichage_messages()">
+          </select>
+
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Statistiques
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Statistiques</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      
+                      <div id="stats">  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div id="messages" class="mx-auto p-2 bloc-conversation scroll">
+    </div>
+
+    <!-- <div class="row row-cols-1 row-cols-md-2 g-4 mt-3 ms-5 me-5">
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body" id="messages">
+
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body" id="nlp_messages">
+          
+
+          </div>
+        </div>
+      </div>
+      
+
+      
+
+      </div>
+    </div -->>
+
+      <!-- <input type="file" id="files" onchange="upload_directory()" webkitdirectory mozdirectory /> -->
+
+</html>
