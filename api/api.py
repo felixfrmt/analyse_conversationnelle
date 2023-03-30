@@ -26,6 +26,7 @@ from fastapi.responses import FileResponse
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 
+from collections import Counter
 
 
 app = FastAPI(title="API Analyse conversationnelle", description="API permettant l'analyse des conversations d'Instagram", version="1.0")
@@ -49,6 +50,7 @@ async def root():
 @app.post("/uploadfiles/")
 async def create_upload_files(files: List[UploadFile] = File(...)):
     path = "../core/messages_insta/inbox/"
+    
     for file in tqdm(files):
         repo = file.filename.split("/")[-2]
         name = file.filename.split("/")[-1]
@@ -63,11 +65,13 @@ async def create_upload_files(files: List[UploadFile] = File(...)):
     global preprocessing
     preprocessing = Preprocessing()
     
-    return "Good !!"
+    return "Good !"
+
 
 @app.get("/all_stats/")
 async def get_all_stats():
     social_network = "insta"
+    global stats
     stats = [Statistics_conversation(conv, social_network) for conv in preprocessing.list_conversations]
 
     all_stats = Statistics_All(stats, social_network)
@@ -118,6 +122,7 @@ class DateTimeEncoder(JSONEncoder):
 
 @app.get("/list_nlp_messages/{conv_id}")
 async def get_list_nlp_messages(conv_id):
+    global json_string
     if not os.path.isfile("../core/messages_insta/inbox/"+conv_id+"/nlp_message_1.json"):
         nlp_conv = NLP_Conversation(conv.id_, conv.participants, conv.messages)
 
@@ -137,6 +142,34 @@ async def get_list_nlp_messages(conv_id):
             json_string = json.load(file)
             
     return json_string
+
+
+@app.get("/stats_nlp_conversation/{conv_id}")
+async def get_stats_nlp_conversation(conv_id):
+    sentiments = [m["sentiment_1"] for m in json_string["messages"]]
+    counter_sentiments = Counter(sentiments)
+    
+    hos = [h["hos"] for h in json_string["messages"]]
+    counter_hos = Counter(hos)
+    return {"sentiments": counter_sentiments, "hos": counter_hos}
+ 
+
+
+
+@app.get("/stats_conversation/{conv_id}")
+async def get_stats_conversation(conv_id):
+    stats_conversation = [s for s in stats if s.id_ == conv_id]
+    stats_conversation = stats_conversation[0].df_statistics_conversation
+    stats_conversation = stats_conversation.set_index('field')
+    stats_conversation.loc["Nombre de messages par participants", "value"] = str(stats_conversation.loc["Nombre de messages par participants", "value"]).strip("{}")
+    stats_conversation.loc["Temps total de réponse", "value"] = str(stats_conversation.loc["Temps total de réponse", "value"]).strip("{'}")
+    stats_conversation.loc["Temps moyen de réponse", "value"] = str(stats_conversation.loc["Temps moyen de réponse", "value"]).strip("{'}")
+    # print([index for index, row in stats_conversation.iterrows()])
+    # stats_conversation["value"] = [json.dumps(row["value"]) if str(index) == "Nombre de messages par participants" for index, row in stats_conversation.iterrows()]
+    html_content = stats_conversation.to_html(index=True, header=False, classes="table", border="0")
+    return HTMLResponse(content=html_content, status_code=200)
+
+
 
 
 if __name__ == '__main__':

@@ -1,0 +1,135 @@
+{
+  "participants": [
+    {
+      "name": "Lionel"
+    },
+    {
+      "name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678970730484,
+      "content": "Je voulais y aller ce weekend si \u00c3\u00a7a te disais"
+    },
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678970724155,
+      "content": "Non justement"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1678970717742,
+      "content": "Et toi ?"
+    },
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678970714966,
+      "content": "S\u00c3\u00a9rieux ?"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1678970699986,
+      "content": "Oui vraiment trop bien"
+    },
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678968959035,
+      "content": "T'es all\u00c3\u00a9 voir Creed 3 d'ailleurs ?"
+    },
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678968422573,
+      "content": "L\u00c3\u00a9gumes \u00f0\u009f\u00a5\u00a6\u00f0\u009f\u00a5\u00a6\u00f0\u009f\u00a5\u00a6\u00f0\u009f\u00a5\u00a6\u00f0\u009f\u00a5\u00a6"
+    },
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678968400672,
+      "content": "Liked a message"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1678968396984,
+      "content": "Poulet r\u00c3\u00b4ti \u00f0\u009f\u008d\u0097\u00f0\u009f\u008d\u0097\u00f0\u009f\u008d\u0097\u00f0\u009f\u008d\u0097",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Lionel"
+        }
+      ]
+    },
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678968390519,
+      "content": "Ahahah t'as bien raison"
+    },
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678968386008,
+      "content": "Liked a message"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1678968380996,
+      "content": "Tqt les meilleurs repas ce seront \u00c3\u00a0 la coloc",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Lionel"
+        }
+      ]
+    },
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678968339286,
+      "content": "Les autres se sont plus donn\u00c3\u00a9s"
+    },
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678968329952,
+      "content": "En vrai oui, le plat de r\u00c3\u00a9sistance \u00c3\u00a9tait niquel le reste normal"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1678968276856,
+      "content": "C\u00e2\u0080\u0099\u00c3\u00a9tait bon le repas de liste ?"
+    },
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678968261174,
+      "content": "Je mange un peu et j'arrive"
+    },
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678968254196,
+      "content": "Je viens vers 14h"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1678968240721,
+      "content": "Tu viens quand ?"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1678968240397,
+      "content": "Oui \u00c3\u00a7a va je suis \u00c3\u00a0 l\u00e2\u0080\u0099\u00c3\u00a9cole pour travailler"
+    },
+    {
+      "sender_name": "Lionel",
+      "timestamp_ms": 1678968206782,
+      "content": "Yes fr\u00c3\u00a8re et toi ?"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1678968195137,
+      "content": "Yooo \u00c3\u00a7a va ?"
+    }
+  ],
+  "title": "Lionel",
+  "is_still_participant": true,
+  "thread_path": "inbox/lionel_1104099427648282",
+  "magic_words": [
+    
+  ]
+}

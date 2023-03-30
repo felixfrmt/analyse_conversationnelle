@@ -2,6 +2,29 @@ thead > tr {
   text-align: left !important;
 }
 
+svg {
+  margin-right: 10px;
+}
+
+#stats_nlp_conversation {
+  text-align: -webkit-center;  
+}
+
+#stats_nlp_conversation > canvas {
+  width: 50% !important;
+  height: auto !important;
+}
+
+.card {
+  border-radius: 25px;
+}
+
+
+.color-light {
+  background-color: #72727247;
+}
+
+
 .right {
   text-align: -webkit-right;
 }
@@ -11,15 +34,16 @@ thead > tr {
   max-width: 75%;
 }
 
-.bloc-conversation {
-  margin-top: 5vh;
+.bloc {
+  margin-top: 10vh;
   height: 80vh !important;
-  width: 85vw !important;
   overflow:auto;
   padding: 0 100px 0 100px !important;
 }
 
-
+#messages {
+  width: 85vw !important;
+}
 
 .loader {
   border: 16px solid #f3f3f3; /* Light grey */

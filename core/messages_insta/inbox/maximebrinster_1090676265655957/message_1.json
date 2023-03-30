@@ -1,0 +1,118 @@
+{
+  "participants": [
+    {
+      "name": "Maxime Brinster"
+    },
+    {
+      "name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Maxime Brinster",
+      "timestamp_ms": 1679997907044,
+      "content": "Ptn"
+    },
+    {
+      "sender_name": "Maxime Brinster",
+      "timestamp_ms": 1679997901924,
+      "content": "\u00c3\u0087a a l'air incroyable"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679997876635,
+      "photos": [
+        {
+          "uri": "messages/inbox/maximebrinster_1090676265655957/photos/329545608_742678930727167_8423045211776958869_n_742678927393834.jpg",
+          "creation_timestamp": 1679997875
+        }
+      ]
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679997838930,
+      "content": "Attends je te montre"
+    },
+    {
+      "sender_name": "Maxime Brinster",
+      "timestamp_ms": 1679997826401,
+      "content": "Connais pas"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679997805001,
+      "content": "Vers le centre ville \u00c3\u00a0 c\u00c3\u00b4t\u00c3\u00a9 de la Victoire"
+    },
+    {
+      "sender_name": "Maxime Brinster",
+      "timestamp_ms": 1679997759037,
+      "content": "Tu veux habiter vers o\u00c3\u00b9 ?"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679997639821,
+      "content": "Moi aussi, il va falloir que je trouve un appart maintenant"
+    },
+    {
+      "sender_name": "Maxime Brinster",
+      "timestamp_ms": 1679997588602,
+      "content": "\u00f0\u009f\u008e\u0089\u00f0\u009f\u008e\u0089\u00f0\u009f\u008e\u0089"
+    },
+    {
+      "sender_name": "Maxime Brinster",
+      "timestamp_ms": 1679997497983,
+      "content": "Oui je suis pris c'est top"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679997453338,
+      "content": "Alors t\u00e2\u0080\u0099as \u00c3\u00a9t\u00c3\u00a9 pris ????"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679997429474
+    },
+    {
+      "sender_name": "Maxime Brinster",
+      "timestamp_ms": 1679997405835,
+      "content": "Liked a message"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679997398320,
+      "content": "Ahh vas y je vais postuler !!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Maxime Brinster"
+        }
+      ]
+    },
+    {
+      "sender_name": "Maxime Brinster",
+      "timestamp_ms": 1679997308377,
+      "content": "Ils cherchent 4 stagiaires je crois"
+    },
+    {
+      "sender_name": "Maxime Brinster",
+      "timestamp_ms": 1679997283033,
+      "content": "Ouii il a l'air vraiment int\u00c3\u00a9ressant"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679997178845,
+      "content": "Hey ! Oui j\u00e2\u0080\u0099ai vu mais c\u00e2\u0080\u0099est laquelle celle sur Bordeaux ??"
+    },
+    {
+      "sender_name": "Maxime Brinster",
+      "timestamp_ms": 1679930767194,
+      "content": "Salut, toi aussi t'as postul\u00c3\u00a9 pour l'offre de stage qu'on a re\u00c3\u00a7u par mail ? \u00f0\u009f\u00a4\u0094"
+    }
+  ],
+  "title": "Maxime Brinster",
+  "is_still_participant": true,
+  "thread_path": "inbox/maximebrinster_1090676265655957",
+  "magic_words": [
+    
+  ]
+}

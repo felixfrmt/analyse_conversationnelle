@@ -65,6 +65,7 @@ class Statistics_conversation(object):
 			   ("Temps moyen de réponse", dict([(p, str(avg_t)) for p, avg_t in zip(participants, average_time)]))]
 
 		stats = stats + [(value, counter_type[key]) for key, value in category.items()]
+		self.id_ = conversation.id_
 		self.df_statistics_conversation = pd.DataFrame({"field": [x for x, y in stats], "value": [y for x, y in stats]}, index=index)
 
 

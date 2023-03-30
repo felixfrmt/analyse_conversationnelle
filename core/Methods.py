@@ -31,7 +31,7 @@ class Methods:
 	def condition_count_time_response(participant, current_message, next_message):
 		if participant == current_message.sender and current_message.sender != next_message.sender:
 			time = next_message.date - current_message.date
-			return time * (time < timedelta(hours=8)), 1 * (time < timedelta(hours=8))
+			return time * (time < timedelta(hours=8)), 1 * (time < timedelta(hours=6))
 		else: 
 			return timedelta(0), 0
 

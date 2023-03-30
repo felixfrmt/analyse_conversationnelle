@@ -1,0 +1,64 @@
+{
+  "participants": [
+    {
+      "name": "_adrienbernard"
+    },
+    {
+      "name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "_adrienbernard",
+      "timestamp_ms": 1679999161638,
+      "content": "David viendra avec nous s\u00c3\u00bbrement",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+          "actor": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment"
+        }
+      ]
+    },
+    {
+      "sender_name": "_adrienbernard",
+      "timestamp_ms": 1679999119963,
+      "content": "Peut \u00c3\u00aatre on verra"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679999107617,
+      "content": "Mais si tu veux, on ira \u00c3\u00a0 la salle demain"
+    },
+    {
+      "sender_name": "_adrienbernard",
+      "timestamp_ms": 1679999067571,
+      "content": "On comptait sur toi"
+    },
+    {
+      "sender_name": "_adrienbernard",
+      "timestamp_ms": 1679999051254,
+      "content": "Tu fais chier"
+    },
+    {
+      "sender_name": "_adrienbernard",
+      "timestamp_ms": 1679999042815,
+      "content": "Grosse merde"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679998988083,
+      "content": "Non j\u00e2\u0080\u0099ai pas trop envie"
+    },
+    {
+      "sender_name": "_adrienbernard",
+      "timestamp_ms": 1679998865230,
+      "content": "Foot ce soir ?"
+    }
+  ],
+  "title": "_adrienbernard",
+  "is_still_participant": true,
+  "thread_path": "inbox/_adrienbernard_1053610302693292",
+  "magic_words": [
+    
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "participants": [
+    {
+      "name": "Sarah chaabouni \u00f0\u009f\u0094\u0085"
+    },
+    {
+      "name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Sarah chaabouni \u00f0\u009f\u0094\u0085",
+      "timestamp_ms": 1679998789148,
+      "content": "Ah ok kiff bien alors !"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679998669921,
+      "audio_files": [
+        {
+          "uri": "messages/inbox/sarahchaabouni_1144983573566670/audio/audioclip16799986680001974_602256208494233.mp4",
+          "creation_timestamp": 1679998668
+        }
+      ]
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679998664821,
+      "content": "Regarde c\u00e2\u0080\u0099est l\u00e2\u0080\u0099affiche des artistes"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679998656475
+    },
+    {
+      "sender_name": "Sarah chaabouni \u00f0\u009f\u0094\u0085",
+      "timestamp_ms": 1679998651416,
+      "content": "T\u00e2\u0080\u0099as des noms d\u00e2\u0080\u0099artistes ?"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679998616915,
+      "content": "C\u00e2\u0080\u0099est un peu de tout, du rap, du reggae et de l\u00e2\u0080\u0099electro"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679998557623,
+      "content": "yessss"
+    },
+    {
+      "sender_name": "Sarah chaabouni \u00f0\u009f\u0094\u0085",
+      "timestamp_ms": 1679998529971,
+      "content": "C\u00e2\u0080\u0099est quoi comme musique l\u00c3\u00a0 bas ?"
+    },
+    {
+      "sender_name": "Sarah chaabouni \u00f0\u009f\u0094\u0085",
+      "timestamp_ms": 1679998519645,
+      "content": "Oh t\u00e2\u0080\u0099y vas ?"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679998500692,
+      "content": "Puis y a garorock aussi la semaine d\u00e2\u0080\u0099apr\u00c3\u00a8s ! \u00c3\u0087a devient short en temps"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679998477812,
+      "content": "Ah mais oui c\u00e2\u0080\u0099est vrai !!"
+    },
+    {
+      "sender_name": "Sarah chaabouni \u00f0\u009f\u0094\u0085",
+      "timestamp_ms": 1679998458925,
+      "content": "Oui si on a le temps avec la semaine de liste BDE \u00f0\u009f\u0098\u008b"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679998347386,
+      "content": "Je dois bosser ce soir"
+    },
+    {
+      "sender_name": "Fe\u00cc\u0081lix Fro\u00cc\u00b6ment",
+      "timestamp_ms": 1679998329712,
+      "content": "\u00c3\u0087a peut \u00c3\u00aatre la semaine prochaine ?"
+    },
+    {
+      "sender_name": "Sarah chaabouni \u00f0\u009f\u0094\u0085",
+      "timestamp_ms": 1679998309280,
+      "content": "Coucou tu veux faire repas ce soir ?"
+    }
+  ],
+  "title": "Sarah chaabouni \u00f0\u009f\u0094\u0085",
+  "is_still_participant": true,
+  "thread_path": "inbox/sarahchaabouni_1144983573566670",
+  "magic_words": [
+    
+  ]
+}
