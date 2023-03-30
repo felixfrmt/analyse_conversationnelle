@@ -22,7 +22,7 @@ class NLP_Conversation(Conversation):
         # topics = Methods.topic_modeling(contents)
         # topics = [top["labels"] for top in topics]
         # topics = [top[0:2] for top in topics]
-
+        
         # print(topics)
         nlp_messages = [NLP_Message(m.sender, m.date, m.type_message, m.content, s1, s2, h) for m, s1, s2, h in zip(messages, sentiment_1, sentiment_2, hos)]
         
